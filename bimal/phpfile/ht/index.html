@@ -1,0 +1,271 @@
+
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="logo.png" type="image">
+    <title>Green Peace</title>
+  </head>
+  <body>
+    <div class="header"></div>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="" width="120px">
+         
+          </a>
+        </div>
+        <ul class="nav">
+          <li class="tag">
+            <a href="#header" class="link">Home</a>
+          </li>
+          <li class="tag">
+            <a href="#about" class="link">About US</a>
+          </li>
+          <li class="tag">
+            <a href="#official" class="link">Official⌄</a>
+            <ul class="sub-nav">
+              <li><a href="#official">Message from chairman</a></li>
+              <li><a href="#official">Message from Principal</a></li>
+            </ul>
+          </li>
+          
+          <li class="tag">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSewp4csa_n5TqowGvq7RwH2_ttt0qaaJ1doO9iDqa16vHTHfw/viewform?usp=sf_link" target="_blank" class="link">Admission</a>
+          </li>
+          <li class="tag">
+            <a href="#imgs" class="link">Gallery</a>
+            
+          </li>
+          <li class="tag">
+            <a href="contact/contact.html" class="link">Contact us</a>
+            
+          </li>
+          <li class="tag">
+            <a href="#dev" class="link">Developer</a>
+            
+          </li>
+        </ul>
+        <!-- color change -->
+        <button id="lightButton" onclick="toggleLight()" style="background-color: aqua; border-radius: 10%; padding: 1%;">Turn light on</button>
+
+        <script>
+            let lightOn = false;
+        
+            function toggleLight() {
+                let button = document.getElementById("lightButton");
+                let body = document.querySelector("body");
+                if (lightOn) {
+                    button.innerHTML = "Turn light on";
+                    button.style.backgroundColor = "aqua";
+                    body.style.backgroundColor = "white";
+                    lightOn = false;
+                } else {
+                    button.innerHTML = "Change color";
+                    button.style.backgroundColor = "#11EFB4";
+                    body.style.backgroundColor = "#11EFB4";
+                    lightOn = true;
+                }
+            }
+        </script>
+        <!-- The initial value of lightOn has been changed to false, to match the initial button text "Turn light on". The button text and the body background color have also been updated to match the desired functionality. -->
+        
+        
+        
+
+
+      
+        <div class="phone">
+          <span class="phone_order">Green Peace</span>
+          <span class="phone_number">98000000000</span>
+        </div>
+      
+        <div class="login">
+          <a class="login_link login_link--button" href="http://localhost/bimal/phpfile/login_form.php">Login</a>
+          <a class="login_link" href="http://localhost/bimal/phpfile/register_form.php">Signup</a>
+        </div>
+     
+        <div class="btn_login fas fa-user"></div>
+        <div class="btn_nav fas fa-bars"></div>
+      </nav>
+      <header id="header" role="header">
+      </header>
+      <main id="main" role="main">
+        <section id="image-section">
+          <div class="container">
+            <h1 class="web">Welcome to school official website &#128591	</h1>
+            <article id="contain-image">
+              <img src="img/A.png" alt="Image" class="img" id="img1">
+              <img src="img/ee.png" alt="Image" class="img" id="img1">
+              <img src="img/ff.png" alt="Image" class="img" id="img1">
+              <img src="img/bb.png" alt="Image" class="img" id="img2">
+              <img src="img/c.jpg" alt="Image" class="img" id="img3">
+              <img src="img/dd.png" alt="Image" class="img" id="img4">
+              <img src="img/e.jpg" alt="Image" class="img" id="img5"> 
+              <div id="contain-button">
+                <ion-icon name="radio-button-on" class="button" id="button1"></ion-icon>
+                <ion-icon name="radio-button-on" class="button" id="button2"></ion-icon>
+                <ion-icon name="radio-button-on" class="button" id="button1"></ion-icon>
+                <ion-icon name="radio-button-on" class="button" id="button2"></ion-icon>
+                <ion-icon name="radio-button-on" class="button" id="button3"></ion-icon>
+                <ion-icon name="radio-button-on" class="button" id="button4"></ion-icon>
+                <ion-icon name="radio-button-on" class="button" id="button5"></ion-icon>
+              </div>
+            </article>
+          </div>
+        </section> <br><br> <br> <hr>
+      </main>
+    
+      <section id="about" class="about">
+        
+        <br> <br>
+       <h1>About us</h1>
+        <h2 style="text-align: center; color: red; background-color: white; margin-top: 4rem;">"We cultivate the young mind today & prepare the backbone of nation tomorrow"</h2>
+        <div style="display: flex; align-items: center; margin-right: 2rem; margin-left: 2rem;">
+         <p>
+          "Parbat Green Peace English Boarding School is an academic institution located in Parbat district in Nepal.Established in 2066, The school is known for its excellent faculty and staff, who are dedicated to providing a high-quality education to all students. br The school has a strong emphasis on English language education,  The school has modern facilities and resources to support student learning, including well-equipped classrooms, a library, computer lab, and playground. The school also provides boarding facilities for students who come from other areas. The school's campus is safe and secure, providing students with a safe and healthy environment in which to learn and grow. <br>
+          The school also has a strong extracurricular activities program, which includes sports, music, and art, to help students develop their talents and interests outside of the classroom. This helps to create a well-rounded student who is able to excel academically and in their chosen pursuits. The school also provides opportunities for students to participate in community service and volunteer activities. The school is committed to providing students with a high-quality education that will prepare them for success in the future.
+        </p> <img src="logo.png" alt="">
+        </div>  <br><hr> 
+      </section>
+  <section id="official">
+    <h1 style="text-align: center;">Message
+      From Chairperson</h1>
+    <div style="display: flex; align-items: center; margin-right: 2rem;">
+     
+      <img src="img/raju1.jpeg" alt="Chairman pic" style="height: 350px; width: 450px; border-radius: 50%; margin-right: 20px;">
+      <p style="width: 100%; text-align: justify;">Dear Parents and Guardians,<br>
+
+        I am honored to welcome you to the Parbat Green Peace English Boarding School, established in 2066 BS. Our school is committed to providing a safe and nurturing environment for our students to learn and grow.
+        
+        We understand that entrusting your child's education to us is a big decision, and we take this responsibility very seriously. Our dedicated faculty and staff are committed to providing the highest quality education to our students, and we are constantly working to improve our programs and facilities.
+        
+        We believe that a strong partnership between home and school is essential for student success. We encourage you to be involved in your child's education and to communicate regularly with our teachers and staff.
+        
+        We are excited to be a part of your child's educational journey, and we look forward to working together to help them achieve their full potential.
+        <br>
+        Sincerely,<br>
+        
+        [Chairperson : Ram bahadur bhandari] <br>
+        Parbat Green Peace English Boarding School</p>
+    </div>  <br><hr> 
+    <h1 style="text-align: center;">Message
+      From Principal</h1>
+    <div style="display: flex; align-items: center; margin-right: 2rem;">
+     
+      <img src="img/p.jpg" alt="Principal image" style="height: 300px; width: 300px; border-radius: 50%; margin-right: 20px;">
+      <p style="width: 100%; text-align: justify;">Dear Students, Parents, and Guardians, <br>
+
+        Welcome to the Parbat Green Peace English Boarding School. As the Principal, I am honored to lead this community of dedicated educators, motivated students, and supportive families.
+        We understand the importance of education and strive to create a learning environment that fosters academic excellence and personal growth. Our experienced faculty and staff are committed to providing our students with a well-rounded education, including strong academic programs, extracurricular activities, and service opportunities.
+         Our boarding school provides a unique and valuable experience for our students. We believe that living and learning together in a safe and supportive environment helps to build character, independence, and a sense of community.
+         We encourage you to get involved in the life of our school, whether through participating in clubs and activities, or by sharing your ideas and feedback. Together, we can make the most of your time here at Parbat Green Peace English Boarding School.
+        Thank you for choosing our school and we look forward to working with you. <br>
+        
+        Sincerely,
+        [Principal : Bishnu subedi] <br>
+        Parbat Green Peace English Boarding School</p> 
+    </div>  <br> <br><hr>
+  </section>
+    <!--Gallery section-->
+      <section id="imgs">
+        <h1>Green peace Gallery</h1><hr>
+        <div id="gallery" class="container-fluid">  
+          <img src="img/a.jpg" class="img-responsive">
+          <img src="img/b.jpg" class="card img-responsive">
+          <img src="img/c.jpg" class="img-responsive">
+          <img src="img/d.jpg" class="card img-responsive">
+          <img src="img/e.jpg" class="img-responsive">
+          <img src="img/f.jpg" class="img-responsive">
+          <img src="img/g.jpg" class="card img-responsive">
+          <img src="img/h.jpg" class="img-responsive">
+          <img src="img/i.jpg" class="img-responsive">
+          <img src="img/j.jpg" class="card img-responsive"><hr>
+          
+        
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+        
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-body">
+              </div>
+            </div>
+        
+          </div>
+        </div>
+      </section> <br><hr> <br>
+
+      <section class="developer" id="dev">
+        <div style="text-align: center;">
+        <h1>About Developer</h1>
+        <iframe src="http://www.bimalbhandari.com.np" width="600" height="600"></iframe></div>
+         <!--   for social links -->
+         <div class="social-media">
+          <a href="https://www.instagram.com/bimalbhandari_/"target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/bimalbhandari.com.np/"target="_blank"><i class="fab fa-facebook"></i></a>
+        </div> 
+
+      </section>
+    
+      <!--  FOOTER START -->
+  
+<div class="footer">
+  <div class="inner-footer">
+
+<!--  school details -->
+    <div class="footer-items">
+      <h1>Green Peace</h1>
+      <p>This is a private school located in parbat district of nepal. Full name of this school is Parbat Green peace english boarding school</p>
+
+    </div>
+
+<!--   quick links  -->
+    <div class="footer-items">
+      <h3>Quick Links</h3>
+      <div class="border1"></div> <!-- underline -->
+        <ul>
+          <a href="#header"><li>Home</li></a>
+          <a href="#about"><li>About</li></a>
+          <a href="http://localhost/bimal/ht/contact/contact.html"><li>Contact</li></a>
+          <a href="#gallery"><li>Gallery</li></a>
+        </ul>
+    </div>
+
+
+
+<!-- contact us -->
+    <div class="footer-items">
+      <h3>Contact us</h3>
+      <div class="border1"></div>
+        <ul>
+          <li><i class="fa fa-map-marker" aria-hidden="true"></i>Parbat, Thapathana</li>
+          <li><i class="fa fa-phone" aria-hidden="true"></i>980000000</li>
+          <li><i class="fa fa-envelope" aria-hidden="true"></i>greenpeace@gmail.com</li>
+        </ul> 
+      
+<!--  social links -->
+        <div class="social-media">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-google-plus-square"></i></a>
+        </div> 
+    </div>
+  </div>
+  
+<!--   Footer Bottom start  -->
+  <div class="footer-bottom">
+    Copyright &copy; Bimal bhandari 2023.
+  </div>
+</div>
+  
+<!--   Footer Bottom end -->
+  
+<!--   FOOTER END -->
+  
+    
+    </body>
+    <script src="script.js"></script>
+</html>
